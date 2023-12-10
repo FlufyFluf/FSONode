@@ -51,7 +51,7 @@ const generateId = () => {
     : 0
   return maxId + 1
 }
-
+console.log("A")
 app.post('/api/notes', (request, response) => {
   const body = request.body
 
